@@ -7,33 +7,40 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #1a1a1b; color: #e5e5e5; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; }
         .card { background: #272729; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); text-align: center; max-width: 400px; width: 100%; border-top: 5px solid #004a94; }
-        .logo-uninove { width: 180px; margin-bottom: 20px; filter: drop-shadow(0px 0px 2px rgba(255,255,255,0.2)); }
+        .logo-uninove { width: 200px; margin-bottom: 20px; background: white; padding: 10px; border-radius: 8px; }
         h1 { margin: 10px 0 5px 0; font-size: 1.6rem; color: #fff; }
         .title { color: #d4af37; font-weight: bold; font-size: 1rem; margin-bottom: 10px; display: block; }
-        .programs { color: #a1a1a1; font-size: 0.8rem; line-height: 1.4; margin-bottom: 25px; border-bottom: 1px solid #444; padding-bottom: 15px; }
-        .btn { display: block; background: #333; color: #fff; padding: 12px; margin: 10px 0; border-radius: 8px; text-decoration: none; transition: 0.3s; font-weight: bold; border: 1px solid #444; font-size: 0.9rem; }
-        .btn:hover { background: #004a94; border-color: #004a94; color: #fff; }
-        .btn-whatsapp { background: #25d366; border-color: #128c7e; color: #fff; }
+        .programs { color: #a1a1a1; font-size: 0.8rem; line-height: 1.5; margin-bottom: 20px; border-bottom: 1px solid #444; padding-bottom: 15px; }
+        .btn { display: block; background: #333; color: #fff; padding: 12px; margin: 8px 0; border-radius: 8px; text-decoration: none; transition: 0.3s; font-weight: bold; border: 1px solid #444; font-size: 0.85rem; }
+        .btn:hover { background: #004a94; border-color: #004a94; }
+        .btn-main { background: #004a94; border-color: #003366; }
+        .btn-whatsapp { background: #25d366; border-color: #128c7e; }
         .btn-whatsapp:hover { background: #128c7e; }
-        .footer-text { font-size: 0.7rem; color: #666; margin-top: 25px; text-transform: uppercase; letter-spacing: 1px; }
+        .footer-text { font-size: 0.65rem; color: #666; margin-top: 25px; text-transform: uppercase; letter-spacing: 1px; }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://www.uninove.br/assets/images/logo-uninove.png" alt="Uninove" class="logo-uninove">
+        <img src="logo.png" alt="Uninove" class="logo-uninove">
         
         <h1>Leonardo Vils</h1>
         <span class="title">Professor e Pesquisador</span>
         
         <div class="programs">
-            PPGA - Pós-Graduação em Administração<br>
-            PPGP - Pós-Graduação em Gestão e Projetos
+            PPGA: Programa de Pós-graduação em Administração<br>
+            PPGP: Programa de Pós-graduação em Gestão de Projetos
         </div>
         
-        <a href="https://wa.me/5511991535553" class="btn btn-whatsapp">WhatsApp (Direto)</a>
-        <a href="http://lattes.cnpq.br/8408229594313387" class="btn" target="_blank">Currículo Lattes</a>
-        <a href="https://www.researchgate.net/profile/Leonardo-Vils-2" class="btn" target="_blank">ResearchGate</a>
-        <a href="https://www.linkedin.com/in/leonardovils/" class="btn" target="_blank">LinkedIn</a>
+        <a href="contato.vcf" class="btn btn-main">💾 Salvar Contato na Agenda</a>
+        
+        <a href="https://wa.me/5511991535553" class="btn btn-whatsapp">📱 WhatsApp</a>
+        
+        <a href="mailto:leonardo.vils@uni9.pro.br" class="btn">📧 E-mail Institucional</a>
+        <a href="mailto:vilsleo@gmail.com" class="btn">📧 E-mail Pessoal</a>
+
+        <a href="http://lattes.cnpq.br/8408229594313387" class="btn" target="_blank">📄 Currículo Lattes</a>
+        <a href="https://www.researchgate.net/profile/Leonardo-Vils-2" class="btn" target="_blank">🔬 ResearchGate</a>
+        <a href="https://www.linkedin.com/in/leonardovils/" class="btn" target="_blank">🔗 LinkedIn</a>
 
         <div class="footer-text">NFC Digital Card | Uninove</div>
     </div>
